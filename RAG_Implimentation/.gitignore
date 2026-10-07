@@ -1,0 +1,17 @@
+# Virtual environments
+venv/
+.venv/
+
+# Local secrets
+.env
+.streamlit/secrets.toml
+
+# Python generated files
+__pycache__/
+*.pyc
+
+# Generated indexes
+vector_db/
+
+# Knowledge documents
+data/*.pdf
